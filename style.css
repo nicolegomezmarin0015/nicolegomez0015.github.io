@@ -1,0 +1,387 @@
+
+@font-face {
+    font-family: 'Stimcard';
+    src:url(../Fuentes/stimcard/Stimcard.otf)
+}
+@font-face {
+    font-family: 'cuerpo';
+    src:url(../Fuentes/ChampieTrial-Regular.ttf)
+}
+@font-face {
+    font-family: 'titulo';
+    src:url(../Fuentes/Baby\ Girly.otf)
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.background1 {
+    background-image: url('../recursos/Whimsy\ Tree\ Background\ 2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Altura completa de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.background2 {
+    margin-top: 4rem;
+    background-image: url('../recursos/descarga.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Altura completa de la pantalla */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.mis15{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Ajusta la imagen al centro */
+    max-width: 100%; /* Para que la imagen no se desborde */
+}
+.content{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.descripcion{
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'cuerpo';
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}
+.descripcionlluvia{
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'titulo';
+    font-size: 2rem;
+    
+}
+
+.titulo1{
+    text-align: center;
+    font-family: 'titulo';
+    font-size: 4rem;
+}
+
+.titulo7{
+    text-align: center;
+    font-family: 'titulo';
+    font-size: 2rem;
+}
+.titulo2{
+    margin-top: 6rem;
+    text-align: center;
+    font-family: 'titulo';
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+
+.descripcion2{
+    text-align: center;
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+}
+
+.información{
+    background-image: url('../recursos/descarga.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Altura completa de la pantalla */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+}
+.titulo-recepción{
+    text-align: center;
+    font-family: 'titulo';
+    font-size: 2.5rem;
+}
+.caja-sobre{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre{
+    width: 4rem;
+    height: 4rem;
+    filter: invert(100%);
+}
+
+.recepcion1{
+    display:grid;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    padding-top: 2rem;
+    border-style: inset;
+    width: 350px;
+    height: 400px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 0.8px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+.recepcion7{
+    display:grid;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    padding-top: 2rem;
+    border-style: inset;
+    width: 350px;
+    height: 550px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 0.8px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.cuerpo-recepción{
+    text-align: center;
+    align-content: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.boton{
+    color: white;
+margin-top: 1rem;
+     background-color: rgb(255, 162, 162);
+     font-family: 'cuerpo' ;
+     font-size: 1.2rem;
+     height: 2rem;
+     width: 10rem;
+     border-color: transparent;
+     font-style: none;
+     
+     
+}
+.boton:hover{
+    color: white;
+    margin-top: 1rem;
+     background-color: rgba(255, 127, 127, 0.342);
+     font-family: 'cuerpo' ;
+     font-size: 1.2rem;
+     height: 2rem;
+     width: 10rem;
+     border-color: white;
+     border-style:none ;
+     
+     
+}
+
+.img-dress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+
+.codigo-titulo{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'titulo';
+}
+
+.codigo-cuerpo{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'cuerpo';
+}
+.codigo-ves{
+    display: flex;
+    
+}
+.caja-codigo{
+    margin: 1rem;
+}
+
+.caja-icono{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.recepcion2{
+    display:grid;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    padding-top: 2rem;
+    border-style: inset;
+    width: 350px;
+    height: 100%;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 0.8px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.codigo-titulo2{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'titulo';
+    margin-top: 1rem;
+}
+
+.boton2{
+    color: white;
+margin-top: 1rem;
+     background-color: rgb(255, 162, 162);
+     font-family: 'cuerpo' ;
+     font-size: 1.2rem;
+     height: 2rem;
+     width: 10rem;
+     border-color: transparent;
+     margin-left: 3.5rem;
+     margin-bottom: 1rem;
+     
+     
+}
+
+.boton2:hover{
+    color: white;
+    margin-top: 1rem;
+     background-color: rgba(255, 127, 127, 0.342);
+     font-family: 'cuerpo' ;
+     font-size: 1.2rem;
+     height: 2rem;
+     width: 10rem;
+     border-color: white;
+     border-style:none ;
+     margin-bottom: 1rem;
+     
+     
+}
+
+.recepcion3{
+    display:grid;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    padding-top: 2rem;
+    border-style: inset;
+    width: 350px;
+    height: 400px;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 0.8px;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.codigo-titulo3{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'titulo';
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boton3{
+    color: white;
+
+     background-color: rgb(255, 162, 162);
+     font-family: 'cuerpo' ;
+     font-size: 1.2rem;
+     height: 2rem;
+     width: 10rem;
+     border-color: transparent;
+     margin-left: 5.4rem;
+     
+     
+}
+
+.boton3:hover{
+    color: white;
+
+     background-color: rgba(255, 162, 162, 0.322);
+     font-family: 'cuerpo' ;
+     font-size: 1.2rem;
+     height: 2rem;
+     width: 10rem;
+     border-color: transparent;
+     margin-left: 5.4rem;
+     
+     
+}
+
+.codigo-cuerpo5{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family:sans-serif;
+}
+.codigo-titulo4{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'titulo';
+    margin-top: 1rem;
+}
+.btn-con{
+    color: white;
+   font-style: none;
+   text-decoration: none;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contador{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    background-image: url(../recursos/3896dcb688aabbe806231775c99f7265-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.cont-contador{
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 8rem;
+    
+}
+
+.Fondo{
+    background-image: url('../recursos/descarga.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* Altura completa de la pantalla */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.dress-img{
+    width: 14rem;
+    height: 8rem;
+     margin-bottom: 3rem;
+     margin-left: 4rem;
+}
